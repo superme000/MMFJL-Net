@@ -21,12 +21,8 @@ import matplotlib.pyplot as plt
 import numpy as np
 from sklearn import metrics, manifold
 from configs import load_config
-from sklearn.model_selection import KFold
 import time
 from datetime import datetime
-from sklearn.model_selection import LeaveOneOut
-from model.MMFJL_Net import get_inplanes
-from sklearn.utils.class_weight import compute_class_weight
 
 n_classes = 2
 count = 1
