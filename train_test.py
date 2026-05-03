@@ -25,7 +25,7 @@ from sklearn.model_selection import KFold
 import time
 from datetime import datetime
 from sklearn.model_selection import LeaveOneOut
-from model.MDL_Net import get_inplanes
+from model.MMFJL_Net import get_inplanes
 from sklearn.utils.class_weight import compute_class_weight
 
 n_classes = 2
